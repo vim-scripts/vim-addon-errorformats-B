@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4656
+
+Advanced features such as \\\"run in background\\\" require errorformats, too. Vim only has :compiler, which also sets makeprg etc, which is not what you want in some cases.
+
+This plugin provides errorformats only for various compilers etc.
+
+Best is that you can combine multiple errorformats, such as ruby (rumake build system) & target language (ocaml)
